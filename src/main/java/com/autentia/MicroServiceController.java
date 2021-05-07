@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 /**
- * Created by jorgepacheco on 27/5/16.
+ * Microservicio que devuelve la dirección IP desde la que se lanza la petición
  */
 @RestController
 public class MicroServiceController {
