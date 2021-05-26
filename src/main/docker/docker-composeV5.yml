@@ -1,0 +1,19 @@
+version: '2'
+services:
+  microservicio:
+    image: 'jlr2/serverproduccion'
+    expose:
+      - "8080"
+    ports:
+      - 8282:8080
+    tty: true
+    container_name: microservicioProduccion_pruebas
+  #    networks:
+  #      - redprivada
+  #networks:
+  #  redprivada:
+  #    driver: bridge
+  #    ipam:
+  #      driver: default
+  #      config:
+  #       - subnet: 172.17.0.0/16
