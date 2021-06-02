@@ -23,7 +23,7 @@ public class MicroServiceController {
     public String hello() throws Exception {
 
         String serverAddress = service.getServerAddress();
-        return new StringBuilder().append("Hello from IP address: ").append(serverAddress).append("\n").toString();
+        return new StringBuilder().append("Hello from IP address:  -  ¿Funciona?").append(serverAddress).append("\n").toString();
     }
 
 
