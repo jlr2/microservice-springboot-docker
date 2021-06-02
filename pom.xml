@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.autentia</groupId>
-	<artifactId>micro-service-spring-boot</artifactId>
+	<artifactId>microservicio-app</artifactId>
 	<version>1.0</version>
 	<packaging>jar</packaging>
 
-	<name>micro-service-spring-boot</name>
+	<name>microservicio-app</name>
 	<description>Demo project microservice with Spring Boot and Docker</description>
 
 	<parent>
