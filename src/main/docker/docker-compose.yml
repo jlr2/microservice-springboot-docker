@@ -1,11 +1,11 @@
 version: '2'
 services:
   microservicio:
-    image: 'jlr2/micro-service-spring-boot'
+    image: 'jlr2/microservicio-app'
     expose:
       - "8080"
     ports:
       - 8282:8080
     tty: true
-    container_name: microserviciolocal_pruebas
+    container_name: microservicio-app
 
