@@ -8,7 +8,8 @@ services:
       - 8081:8081
     tty: true
     container_name: microservicio-app 
-    depends_on: microservicio-sccs
+    depends_on: 
+      - microservicio-sccs
   microservicio-sccs:
     image: 'jlr2/microservicio-sccs:1.0'
     expose:
