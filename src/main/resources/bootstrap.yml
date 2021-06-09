@@ -11,5 +11,5 @@
 spring:
   cloud:
     config:
-      uri: http://localhost:8083
+      uri: http://microservicio-sccs:8083
       name: app-service
