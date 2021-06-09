@@ -1,0 +1,15 @@
+#spring:
+#  application:
+#    name: app-service
+#    config:
+#      uri: http://localhost:8083
+#      retry:
+#        max-attempts: 10
+#        initial-interval: 5000
+#  profiles:
+#    active: local
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8083
+      name: app-service

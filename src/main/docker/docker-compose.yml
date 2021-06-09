@@ -13,7 +13,7 @@ services:
   microservicio-sccs:
     image: 'jlr2/microservicio-sccs:1.0'
     expose:
-      - "8003"
+      - "8083"
     ports:
       - 8083:8083
     tty: true
